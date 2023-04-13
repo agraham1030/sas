@@ -16,15 +16,5 @@ if ($test == '404') {
 <?php $pageTitle = "Edit Salamander" ?>
 <?php include(SHARED_PATH . '/salamander-header.php'); ?>
 <a href="<?=urlFor('/salamanders/index.php')?>">&laquo; Back to list</a>
-<h1>Edit Salamander</h1>
-
-<form action="<?=urlFor('/salamanders/edit.php'.h(u($salamander['id'])));?>" method="post">
-  <label for="salamanderName">Salamander Name: </label>
-  <br>
-  <input type="text" id="salamanderName" name="Salamander Name">
-  <br>
-  <br>
-  <input type="submit" value="Edit Salamander">
-</form>
-
+<h1>Stub for edit.php</h1>
 <?php include(SHARED_PATH . '/salamander-footer.php'); ?>

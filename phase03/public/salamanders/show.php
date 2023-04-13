@@ -8,8 +8,7 @@
 
 ?>
 
-<h2>Salamander Details</h2>
-<p>Page ID: <?php echo h($id)?></p>
-<p><a href="<?= urlFor('/salamanders/index.php'); ?>">&laquo; Back to Salamander List</a></p>
+<p><a href="<?= urlFor('/salamanders/index.php'); ?>">&laquo; Back to list</a></p>
+<h1>Stub for show.php</h1>
 
 <?php include(SHARED_PATH . '/salamander-footer.php'); ?>
