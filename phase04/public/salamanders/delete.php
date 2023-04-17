@@ -11,7 +11,7 @@ if(!isset($_GET['id'])) {
   
   }
   
-  $pageTitle = 'Delete Salamander'; ?>
+  $page_title = 'Delete Salamander'; ?>
   
     <a href="<?php echo url_for('salamanders/index.php'); ?>">&laquo; Back to Salamanders</a>
       <h1>Delete Salamander</h1>

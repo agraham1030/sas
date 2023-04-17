@@ -1,6 +1,6 @@
 <?php require_once('../../private/initialize.php'); 
 
-$pageTitle = 'Create Salamander';
+$page_title = 'New Salamander';
 include(SHARED_PATH . '/salamander-header.php');?>
 
 <a href="<?= url_for('/salamanders/index.php'); ?>">&laquo; Back to List</a>

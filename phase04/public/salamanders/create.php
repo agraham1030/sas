@@ -1,6 +1,7 @@
 <?php
 
 require_once('../../private/initialize.php');
+$page_title = 'Create Salamander';
 include(SHARED_PATH . '/salamander-header.php'); 
 
 if (is_post_request()) {
