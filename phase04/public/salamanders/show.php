@@ -1,14 +1,14 @@
-<?php require_once('../../private/initialize.php'); 
+<?php require_once('../../private/initialize.php');
 
-  $id = $_GET['id'] ?? '1';
-
-  $pageTitle = 'Salamander Details';
-
-  include(SHARED_PATH . '/salamander-header.php');
+$id = $_GET['id'] ?? '1'; // PHP > 7.0
+$page_title = 'View Salamander';
+include(SHARED_PATH . '/salamander-header.php'); 
 
 ?>
 
-<p><a href="<?= urlFor('/salamanders/index.php'); ?>">&laquo; Back to list</a></p>
-<h1>Stub for show.php</h1>
+
+  <a href="<?= url_for('/salamanders/index.php'); ?>">&laquo; Back to List</a>
+
+   <p> Page ID: <?= h($id); ?> </p>
 
 <?php include(SHARED_PATH . '/salamander-footer.php'); ?>
